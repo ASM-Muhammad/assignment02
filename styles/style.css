@@ -139,8 +139,22 @@ header{
 /* main-plant-lover-section styles */
 .plant-lover-section{
     justify-content: space-between;
+   margin-top: 200px;
 
 }
+.lover-description-img{
+    position: relative;
+   
+}
+.seller-badge{
+    position: absolute;
+    top:-130px;
+    left:350px;
+    width: 286px;
+    
+}
+
+
 .lover-h2{
 font-size: 50px;
 font-weight: 700;
@@ -161,6 +175,8 @@ font-weight: 700;
 .deals-text{
     text-align: center;
 }
+
+
 
 /* newsletter-section styles */
 

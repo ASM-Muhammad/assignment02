@@ -39,6 +39,7 @@ color: #252432;
     color: #E95A08;
 }
 
+
 /* header section */
 header{
     max-width: 1140px ;
@@ -69,11 +70,86 @@ header{
 }
 
 
+/* main-cart-section styles */
+
+main{
+    
+    max-width: 1140px ;
+    margin: 0px auto;
+}
+
+.cart-section{
+    text-align: center;
+}
+
+.cart-section h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.cart-display-section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20;
+   
+}
+.cart{
+     padding: 30px 0px;
+}
+
+.cart-title{
+    color: #111111;
+    font-weight: 500;
+
+}
+.price{
+    color: #111111;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+.cart-btn{
+   
+    background-color: #E95A08;
+    padding: 19px 80px;
+
+}
+.cart-btn a{
+     color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.cart-btn a:hover{
+    color: rgb(83, 66, 233);
+    
+}
+
+
+/* main-plant-lover-section styles */
+.plant-lover-section{
+    justify-content: space-between;
+
+}
+.lover-h2{
+font-size: 50px;
+font-weight: 700;
+}
+
+.lover-description{
+    padding-left: 60px;  
+}
+
 /* shared styles */
  .display-flex{
     display: flex;
  }
- .h3-text{
+
+ .p-text{
     font-size: 22px;
-    font-weight: 400;
-}
+ }
+
+
+

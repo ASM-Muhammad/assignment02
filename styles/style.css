@@ -185,7 +185,6 @@ font-weight: 700;
     display: grid;
     height: 425px;
     gap: 25px 28px;    
-    margin: 120px auto;
     grid-template-areas: "bloom zabo zabo"
                          "ana zabo zabo";
                          
@@ -270,6 +269,7 @@ font-weight: 700;
 /* newsletter-section styles */
 
 .newsletter{
+    margin-top: 200px;
     height: 533px;
     background-image: url("../assets/news-letter-bg.png");
     background-repeat: no-repeat;
@@ -466,10 +466,14 @@ body{
     margin-top: 60px;
 }
 
+.res-margin{
+    margin: 0px 16px;
+}
 .deals-image{
-    display: block;
+    display: flex;
+    flex-direction: column;
     width: 100%;
-    height: 425px;
+    height: auto;
     gap: 0px;   
     margin: 50px 0px 40px 0px;
 }
@@ -496,7 +500,7 @@ body{
 /* newsletter styles */
 .newsletter{
     height: 30vh;
-    margin-top: 250px;
+    margin-top: 40px;
     margin-bottom: 50px;
 }
 .sub-btn{

@@ -194,7 +194,7 @@ font-weight: 700;
 
 
 .img1{
-    background-image: url('/assets/deal-bloom.png');
+    background-image: url('../assets/deal-bloom.png');
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -208,7 +208,7 @@ font-weight: 700;
 }
 
 .img2{
-    background-image: url('/assets/deal-ana.png');
+    background-image: url('../assets/deal-ana.png');
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -220,7 +220,7 @@ font-weight: 700;
     border-radius: 14px;
 }
 .img3{
-    background-image: url('/assets/deal-zabo.png');
+    background-image: url('../assets/deal-zabo.png');
     display: flex;
     flex-direction: column;
     justify-content: center;

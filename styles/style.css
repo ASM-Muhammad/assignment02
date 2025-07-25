@@ -64,7 +64,7 @@ header{
 
 .header-banner{
     justify-content: space-between;
-    padding: 120px 0px;
+    padding: 50px 0px;
 }
 .h1-header-text{
     font-size: 65px;
@@ -115,7 +115,7 @@ header{
 
 }
 .cart-btn{
-   
+   border: none;
     background-color: #E95A08;
     padding: 19px 76px;
 
@@ -387,16 +387,20 @@ body{
 .res-banner{
     flex-direction: column-reverse;
 }   
+
 .header-banner{
-    margin-left: 10px;
+    padding: 0px;
 }
 .h1-header-text{
     font-size: 40px;
 }
-.header-banner{
-    padding: 28px 0px;
-}
 
+.res-banner-text{
+    margin: 0px 16px;
+}
+.banner-img{
+    width: 100%;
+}
 .logo-header img{
     width: 65px;
     height: 38px;
@@ -407,31 +411,67 @@ body{
     }
 
 /* cart styles */
+.cart-section h1{
+    font-size: 24px;
+}
 .cart-display-section{
     display: grid;
     grid-template-columns: repeat(2,1fr);
    
 }
+.cart{
+     padding: 15px 0px;
+     margin: 0px 16px;
+}
+.cart-btn{
+   
+    background-color: #E95A08;
+    padding: 19px 30px;
 
+}
+.cart-title{
+    font-size: 16px;
+
+}
+.price{
+    font-size: 16px;
+
+}
 /* lover styles */
 .seller-badge{
     display: none;
 }
 .plant-lover-section{
     flex-direction: column;
+    margin: 40px 16px;
 }
+.lover-description{
+    padding: 0;
+}
+
 .lover-img-sec{
     width: 100%;
     height: 100%;
 }
+/* shared styles */
+.res-text-p{
+    font-size: 14px;
+}
+.res-text-h2{
+    font-size: 24px;
+}
 
 /* Deals styles */
+.deals-text{
+    margin-top: 60px;
+}
+
 .deals-image{
     display: block;
     width: 100%;
     height: 425px;
     gap: 0px;   
-    margin: 50px 10px 40px 10px;
+    margin: 50px 0px 40px 0px;
 }
 .img1, .img2, .img3{
     width: 100%;
@@ -456,10 +496,13 @@ body{
 /* newsletter styles */
 .newsletter{
     height: 30vh;
-    margin-top: 300px;
+    margin-top: 250px;
     margin-bottom: 50px;
 }
-
+.sub-btn{
+  
+    padding: 15px 12px;
+}
 .email-field{
     font-size: 16px;
     padding: 15px 20px ;
@@ -479,13 +522,22 @@ body{
     flex-direction: column;
 
 }
-
+.res-bottom-p{
+    font-size: 16px;
+}
 
 .footer-logo{
     margin-left: 20px;
     margin-bottom: 20px;
 }
 
-
+.footer-menu{
+    padding: 0px;
+    margin: 0px 20px;
+}
+.social-flex{
+    padding: 0px;
+    margin: 0px 20px;
+}
 
 }

@@ -95,11 +95,10 @@ header{
 .cart-display-section{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 20;
    
 }
 .cart{
-     padding: 30px 0px;
+     padding: 15px 10px;
 }
 .cart img{
     width: 100%;
@@ -119,7 +118,7 @@ header{
 .cart-btn{
    
     background-color: #E95A08;
-    padding: 19px 80px;
+    padding: 19px 76px;
 
 }
 .cart-btn a{
@@ -131,7 +130,7 @@ header{
 }
 
 .cart-btn a:hover{
-    color: rgb(83, 66, 233);
+    color: rgb(0, 0, 0);
     
 }
 
@@ -174,22 +173,71 @@ font-weight: 700;
     font-weight: 700;
 }
 .deals-text{
+    margin-top: 130px;
     text-align: center;
 }
+
 
 .deals-image{
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(1,1fr) 2fr;
-    justify-content: space-between;
-    text-align: center;
+    height: 425px;
+    gap: 25px 28px;    
+    margin: 120px auto;
+    grid-template-areas: "bloom zabo zabo"
+                         "ana zabo zabo";
+                         
 
 }
+
+
+.img1{
+    background-image: url('/assets/deal-bloom.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-area: bloom;
+    border-radius: 14px;
+    
+}
+
+.img2{
+    background-image: url('/assets/deal-ana.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-area: ana;
+    border-radius: 14px;
+}
+.img3{
+    background-image: url('/assets/deal-zabo.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    grid-area: zabo;
+    border-radius: 14px;
+    
+
+}
+
 .discount-text{
     font-size: 20px;
     font-weight: 700;
     color: #ffffff;
 }
-.discount-text{
+.discount-text3{
     font-size: 40px;
     font-weight: 700;
     color: #ffffff;
@@ -204,18 +252,19 @@ font-weight: 700;
     font-size: 28px;
     font-weight: 600;
 }
-.discount1{
-    background-image: url('/assets/deal-bloom.png');
-}
 
-.discount2{
-background-image: url('/assets/deal-ana.png');
-}
 
-.discount3{
-    background-image: url('/assets/deal-zabo.png');
-}
 
+.discount{
+    width: 100%;
+    height: 100%;
+    background-color: #00000040;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 /* newsletter-section styles */
 
 .newsletter{
@@ -255,6 +304,7 @@ background-image: url('/assets/deal-ana.png');
     font-weight: 600;
     padding: 15px 50px 15px 50px;
     margin-left: -4px; 
+    cursor: pointer;
 }
 
 .sub-btn:hover{
